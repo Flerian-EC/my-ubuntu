@@ -1,6 +1,6 @@
-alias motd="run-parts /etc/update-motd.d/"
-
 #!/bin/bash
+
+alias motd="run-parts /etc/update-motd.d/"
 
 # Nombre del archivo donde se añadirá el alias
 path0=$HOME
