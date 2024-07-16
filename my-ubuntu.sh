@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #actualizar y mejorar el repositorio apt
-apt update && apt full-upgrade -y
+sudo apt update && sudo apt full-upgrade -y
 
 #instalar: Oh My Bash!
 bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"

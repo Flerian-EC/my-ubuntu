@@ -13,14 +13,13 @@ git clone https://github.com/Flerian-EC/my-ubuntu.git
 
 despues debe ejecutar el script:
 ```shell
-cd ./my-ubuntu/ ; bash my-ubuntu.sh
+cd ./my-ubuntu/ ; source my-ubuntu.sh
 ```
-Este comando entrara al directorio "my-ubuntu" y luego ejecutara el script
+Este comando entrara al directorio "my-ubuntu" y luego ejecutara el script, (se le solicitaran permisos root)
 
-## Para personalizar el motd (message of the day)
-### Modificar el motd es opcional.
+## Para instalar un system info
 Debe ejecutar el siguiente comando:
 ```shell
-bash motd.sh
+source logo.sh
 ```
-Esto agregara el alias "motd" para mostrar el "message of the day"
+Esto agregara el alias "logo" para mostrar informacion del sistema junto con el logo de la distribucion
