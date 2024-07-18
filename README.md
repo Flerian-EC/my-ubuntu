@@ -15,11 +15,15 @@ despues debe ejecutar el script:
 ```shell
 cd ./my-ubuntu/ ; source my-ubuntu.sh
 ```
-Este comando entrara al directorio "my-ubuntu" y luego ejecutara el script, (se le solicitaran permisos root)
+Este comando entrara al directorio "my-ubuntu" y luego ejecutara el script, (se le solicitaran permisos root).
 
-## Para instalar un system info
+Para que el template "powerline" funcione correctamente en wsl es necesario instalar fuentes compatibles.
+
+Las fuentes estan disponibles en el directorio my-ubuntu.
+
+## Para instalar un system info (neofetch)
 Debe ejecutar el siguiente comando:
 ```shell
-source logo.sh
+source neofetch.sh
 ```
-Esto agregara el alias "logo" para mostrar informacion del sistema junto con el logo de la distribucion
+Esto agregara el comando "neofetch" para mostrar informacion del sistema junto con el logo de la distribucion
