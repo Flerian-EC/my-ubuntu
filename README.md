@@ -26,4 +26,11 @@ Debe ejecutar el siguiente comando:
 ```shell
 source neofetch.sh
 ```
-Esto agregara el comando "neofetch" para mostrar informacion del sistema junto con el logo de la distribucion
+Esto agregara el comando "neofetch" para mostrar informacion del sistema junto con el logo de la distribucion.
+
+## Para instalar Hyper (emulador de terminal)
+Debe ejecutar el siguiente comando:
+```shell
+source hyper-terminal.sh
+```
+este comando instalara "hyper" y sobreescribira el archivo de configuracion (hyper.js)
