@@ -74,7 +74,7 @@ module.exports = {
             lightRed: '#C51E14',
             lightGreen: '#67F86F',
             lightYellow: '#FFFA72',
-            lightBlue: '#0A2FC4',
+            lightBlue: '#3FA2F6',
             lightMagenta: '#FD7CFC',
             lightCyan: '#68FDFE',
             lightWhite: '#FFFFFF',
